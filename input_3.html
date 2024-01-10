@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input name="fullName" type="text" placeholder="enter your full name" />
+    <br />
+    <button onclick="displayName()">display name</button>
+    <script>
+      function displayName() {
+        var fullName = document.querySelector("input[name=fullName]").value;
+        document.write("your full name is:" + fullName);
+      }
+    </script>
+  </body>
+</html>
